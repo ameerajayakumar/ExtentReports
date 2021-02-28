@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Extent Report Test]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="extentlisteners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" name="Login/Register/Count Test(failed)">
+    <classes>
+      <class name="tc.TestCase2">
+        <methods>
+          <include name="doCount"/>
+          <include name="doreg"/>
+        </methods>
+      </class> <!-- tc.TestCase2 -->
+    </classes>
+  </test> <!-- Login/Register/Count Test(failed) -->
+</suite> <!-- Failed suite [Extent Report Test] -->
